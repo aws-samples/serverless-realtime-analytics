@@ -1,0 +1,39 @@
+{
+  "name": "real-time-analytics-poc",
+  "version": "0.1.0",
+  "bin": {
+    "real-time-analytics-poc": "bin/real-time-analytics-poc.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.73.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "1.73.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.73.0",
+    "@aws-cdk/aws-apigateway": "1.73.0",
+    "@aws-cdk/aws-cloudfront": "1.73.0",
+    "@aws-cdk/aws-cognito": "1.73.0",
+    "@aws-cdk/aws-dynamodb": "1.73.0",
+    "@aws-cdk/aws-iam": "1.73.0",
+    "@aws-cdk/aws-kinesis": "1.73.0",
+    "@aws-cdk/aws-kinesisfirehose": "1.73.0",
+    "@aws-cdk/aws-lambda": "1.73.0",
+    "@aws-cdk/aws-lambda-event-sources": "1.73.0",
+    "@aws-cdk/aws-logs": "1.73.0",
+    "@aws-cdk/aws-s3": "1.73.0",
+    "@aws-cdk/aws-s3-deployment": "1.73.0",
+    "source-map-support": "^0.5.16"
+  }
+}
